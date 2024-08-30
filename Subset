@@ -1,0 +1,12 @@
+def sub():
+  a=int(input())
+  b=[]
+  for i in range(a):
+    b.append(input())
+  s=[[]]
+  for i in b:
+    for j in s:
+      s=s+[j+[i]]
+  print(s)
+
+sub()
